@@ -1,9 +1,5 @@
 # Software Design Laboratory Class
 
-
-<!-- ------------------------------------------------------------ -->
-<!-- content for intial code -->
-
 ## ✏️ Additional Instructions
 
 
@@ -21,39 +17,6 @@ To submit your solution:
 
 ## ✅ Exercise Solution
 
-The solution to **this exercise** can be found in [this repository](/**/), which will be available during the next lab session (it is currently disabled, so the link will produce an error).
+The solution to **this exercise** can be found in [this repository](https://github.com/org-raul-ds/10_Data_Structures_solution.git), which will be available during the next lab session (it is currently disabled, so the link will produce an error).
 
-The solution to **last week's exercise** can be found in [this repository](/**/).
-
-
-
-
-<!-- ------------------------------------------------------------ -->
-<!-- content for solution code -->
-
-
-**⚠️ IMPORTANT NOTE:** This repository will be **deleted** at the end of the course. Make sure to save any code you want to keep elsewhere.
-
-## 🔬 Compare and Reflect on Your Design
-
-Pay particular attention to how you approached the following aspects and compare them with the solution's implementation:
-
-## 🎨 Design Patterns Used
-
-This solution primarily utilises the /**/ design pattern.
-
-## 🧠 Discussion Points
-
-### title/**/
-
-The `/**/` class in the provided solution has been implemented as follows:
-```java
-
-```
-
-What do you think of this alternative?
-```java
-
-```
-
-## ✏️ Proposed Exercises
+The solution to **last week's exercise** can be found in [this repository]((https://github.com/org-raul-ds/09_Visitor_initial.git).
