@@ -6,8 +6,9 @@ public class Main {
         System.out.println("Run the Section<n>.main methods to test your implementations.");
 
         // Section1.main(args);
-        // Section2.main(args);
-        Section3.main(args);
+        Section2.main(args);
+        // Section3.main(args);
+        // Section4.main(args);
     }
 
 }
