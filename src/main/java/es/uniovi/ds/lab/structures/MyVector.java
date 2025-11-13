@@ -1,16 +1,12 @@
 package es.uniovi.ds.lab.structures;
 
 public class MyVector {
+
     private String[] elements;
     private int size;
-    private static final int DEFAULT_VECTOR_SIZE = 20;
 
     public MyVector() {
-        this(DEFAULT_VECTOR_SIZE);
-    }
-
-    public MyVector(int capacity) {
-        elements = new String[capacity];
+        elements = new String[20];
         size = 0;
     }
 

@@ -7,6 +7,7 @@ class DoubleLinkNode {
 }
 
 public class MyDoubleLinkedList {
+
     private DoubleLinkNode head;
     private DoubleLinkNode tail;
     private int size;

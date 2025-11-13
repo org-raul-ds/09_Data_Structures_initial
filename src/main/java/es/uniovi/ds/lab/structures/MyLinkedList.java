@@ -6,6 +6,7 @@ class SingleLinkNode {
 }
 
 public class MyLinkedList {
+
     private SingleLinkNode head;
     private int size;
 
