@@ -7,36 +7,24 @@ import es.uniovi.ds.lab.structures.*;
  */
 public class Util {
 
-    public static Vector vectorOf(String... elements) {
-        Vector vector = new Vector();
+    public static MyVector vectorOf(String... elements) {
+        MyVector vector = new MyVector();
         for (String element : elements)
             vector.add(element);
         return vector;
     }
 
-    public static Vector exampleVector() {
-        return vectorOf("Amadeo", "Baldomero", "Cipriano", "Desiderio", "Eustaquio");
-    }
-
-    public static LinkedList linkedListOf(String... elements) {
-        LinkedList list = new LinkedList();
+    public static MyLinkedList linkedListOf(String... elements) {
+        MyLinkedList list = new MyLinkedList();
         for (int i = elements.length - 1; i >= 0; i--)
             list.add(elements[i]);
         return list;
     }
 
-    public static LinkedList exampleLinkedList() {
-        return linkedListOf("Aniceto", "Braulio", "Crisanto", "Demetrio", "Epifanio");
-    }
-
-    public static DoubleLinkedList doubleLinkedListOf(String... elements) {
-        DoubleLinkedList list = new DoubleLinkedList();
+    public static MyDoubleLinkedList doubleLinkedListOf(String... elements) {
+        MyDoubleLinkedList list = new MyDoubleLinkedList();
         for (int i = elements.length - 1; i >= 0; i--)
             list.add(elements[i]);
         return list;
-    }
-
-    public static DoubleLinkedList exampleDoubleList() {
-        return doubleLinkedListOf("Alcibíades", "Bartolomé", "Casimiro", "Diógenes", "Ezequiel");
     }
 }

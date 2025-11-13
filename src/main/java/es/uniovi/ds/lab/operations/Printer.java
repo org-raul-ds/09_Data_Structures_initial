@@ -1,17 +1,16 @@
 package es.uniovi.ds.lab.operations;
 
-import es.uniovi.ds.lab.structures.Iterator;
+import es.uniovi.ds.lab.structures.*;
 
 public class Printer {
-    public static void print(Iterator iterator) {
+    public static void print(MyDoubleLinkedList doubleList) {
 
-        System.out.println("------------------------------------------------");
+        System.out.println("------------------------------------------------ DoubleLinkedList to printer");
         System.out.println("Loading sheet...");
 
-        String line;
-        while ((line = iterator.next()) != null)
-            System.out.println("Printing line: " + line);
+        for (int i = 0; i < doubleList.size(); i++)
+            System.out.println("Printing line: " + doubleList.getNode(i));
 
-        System.out.println("Ejecting page...");
+        System.out.println("Ejecting page");
     }
 }

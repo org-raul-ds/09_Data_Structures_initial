@@ -6,9 +6,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Section1",
+            "request": "launch",
+            "mainClass": "es.uniovi.ds.lab.main.Section1",
+            "projectName": "data_structures_initial"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
-            "mainClass": "es.uniovi.ds.lab.main.Main",
+            "mainClass": "es.uniovi.ds.lab.main.Main"
         }
     ]
 }

@@ -1,15 +1,15 @@
 package es.uniovi.ds.lab.structures;
 
-class Node {
+class SingleLinkNode {
     String text;
-    Node next;
+    SingleLinkNode next;
 }
 
-public class LinkedList {
-    private Node head;
+public class MyLinkedList {
+    private SingleLinkNode head;
     private int size;
 
-    public LinkedList() {
+    public MyLinkedList() {
         head = null;
         size = 0;
     }
@@ -19,7 +19,7 @@ public class LinkedList {
     }
 
     public void add(String text) {
-        Node newNode = new Node();
+        SingleLinkNode newNode = new SingleLinkNode();
         newNode.text = text;
         newNode.next = head;
         head = newNode;
@@ -30,32 +30,10 @@ public class LinkedList {
         if (index < 0 || index >= size)
             throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
 
-        Node current = head;
+        SingleLinkNode current = head;
         for (int i = 0; i < index; i++)
             current = current.next;
 
         return current.text;
-    }
-
-    public Iterator iterator() {
-        return new LinkedListIterator(head);
-    }
-}
-
-class LinkedListIterator implements Iterator {
-    private Node current;
-
-    public LinkedListIterator(Node head) {
-        current = head;
-    }
-
-    @Override
-    public String next() {
-        if (current == null)
-            return null;
-
-        String text = current.text;
-        current = current.next;
-        return text;
     }
 }

@@ -1,15 +1,15 @@
 package es.uniovi.ds.lab.structures;
 
-public class Vector {
+public class MyVector {
     private String[] elements;
     private int size;
     private static final int DEFAULT_VECTOR_SIZE = 20;
 
-    public Vector() {
+    public MyVector() {
         this(DEFAULT_VECTOR_SIZE);
     }
 
-    public Vector(int capacity) {
+    public MyVector(int capacity) {
         elements = new String[capacity];
         size = 0;
     }
@@ -31,27 +31,5 @@ public class Vector {
             throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
         }
         return elements[index];
-    }
-
-    public Iterator iterator() {
-        return new VectorIterator(this);
-    }
-}
-
-class VectorIterator implements Iterator {
-    private int currentIndex;
-    private Vector vector;
-
-    public VectorIterator(Vector vector) {
-        this.vector = vector;
-        this.currentIndex = 0;
-    }
-
-    @Override
-    public String next() {
-        if (currentIndex >= vector.size()) {
-            return null;
-        }
-        return vector.get(currentIndex++);
     }
 }

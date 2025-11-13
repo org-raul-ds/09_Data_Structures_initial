@@ -1,17 +1,17 @@
 package es.uniovi.ds.lab.structures;
 
-class Node {
+class DoubleLinkNode {
     String text;
-    Node next;
-    Node prev;
+    DoubleLinkNode next;
+    DoubleLinkNode prev;
 }
 
-public class DoubleLinkedList {
-    private Node head;
-    private Node tail;
+public class MyDoubleLinkedList {
+    private DoubleLinkNode head;
+    private DoubleLinkNode tail;
     private int size;
 
-    public DoubleLinkedList() {
+    public MyDoubleLinkedList() {
         head = null;
         tail = null;
         size = 0;
@@ -22,7 +22,7 @@ public class DoubleLinkedList {
     }
 
     public void add(String text) {
-        Node newNode = new Node();
+        DoubleLinkNode newNode = new DoubleLinkNode();
         newNode.text = text;
         newNode.next = head;
         newNode.prev = null;
@@ -40,32 +40,10 @@ public class DoubleLinkedList {
         if (index < 0 || index >= size)
             throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
 
-        Node current = head;
+        DoubleLinkNode current = head;
         for (int i = 0; i < index; i++)
             current = current.next;
 
         return current.text;
-    }
-
-    public Iterator iterator() {
-        return new DoubleLinkedListIterator(head);
-    }
-}
-
-class DoubleLinkedListIterator implements Iterator {
-    private Node current;
-
-    public DoubleLinkedListIterator(Node head) {
-        current = head;
-    }
-
-    @Override
-    public String next() {
-        if (current == null)
-            return null;
-
-        String text = current.text;
-        current = current.next;
-        return text;
     }
 }

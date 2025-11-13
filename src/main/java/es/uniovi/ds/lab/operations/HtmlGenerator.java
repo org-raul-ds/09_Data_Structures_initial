@@ -1,18 +1,17 @@
 package es.uniovi.ds.lab.operations;
 
-import es.uniovi.ds.lab.structures.Iterator;
+import es.uniovi.ds.lab.structures.MyLinkedList;
 
 public class HtmlGenerator {
-    public void writeHTML(Iterator iterator) {
+    public static void writeHTML(MyLinkedList linked) {
 
-        System.out.println("------------------------------------------------");
+        System.out.println("------------------------------------------------ LinkedList to Html");
         System.out.println("<html>");
         System.out.println("  <body>");
         System.out.println("    <ul>");
 
-        String line;
-        while ((line = iterator.next()) != null)
-            System.out.println("      <li>" + line + "</li>");
+        for (int i = 0; i < linked.size(); i++)
+            System.out.println("      <li>" + linked.getString(i) + "</li>");
 
         System.out.println("    </ul>");
         System.out.println("  </body>");
