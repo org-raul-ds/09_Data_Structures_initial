@@ -12,23 +12,23 @@ public class Section3 {
         var linkedList = linkedListOf("Lucas", "Leandro", "Lorenzo");
 
         // ------------------------------------------------
-        // Ahora quiero tener una copia de "vector" en otro vector "vector2" para poder modificarlo
-        // MyVector vector2 = <meter todos los elementos de "vector">
+        // Now I want to have a copy of "vector" in another vector "vector2" to be able to modify it
+        // MyVector vector2 = <put all elements from "vector">
         // print(vector2);
 
         // ------------------------------------------------
-        // Ahora quiero tener una copia de "linkedList" en otro vector "linkedList2" para poder modificarlo
-        // MyLinkedList linkedList2 = <meter todos los elementos de "linkedList">
+        // Now I want to have a copy of "linkedList" in another vector "linkedList2" to be able to modify it
+        // MyLinkedList linkedList2 = <put all elements from "linkedList">
         // print(linkedList2);
 
         // ------------------------------------------------
-        // Ahora quiero pasar los elementos de "vector2" a una lista doblemente enlazada "doubleList2"
-        // MyDoubleLinkedList doubleList2 = <meter todos los elementos de "vector2">
+        // Now I want to pass the elements from "vector2" to a doubly linked list "doubleList2"
+        // MyDoubleLinkedList doubleList2 = <put all elements from "vector2">
         // print(doubleList2);
 
         // ------------------------------------------------
-        // Ahora que he acabado de trabajar con "doubleList2", quiero dejar los elementos que han quedado en "vector3"
-        // MyVector vector3 = <meter todos los elementos de "doubleList2">
+        // Now that I'm done working with "doubleList2", I want to leave the elements that remained in "vector3"
+        // MyVector vector3 = <put all elements from "doubleList2">
         // print(vector3);
     }
 }

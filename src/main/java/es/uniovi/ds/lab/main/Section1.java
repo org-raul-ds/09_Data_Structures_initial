@@ -21,19 +21,19 @@ public class Section1 {
         print(doubleList);
 
         // ------------------------------------------------
-        // Ahora quiero escribir el vector en Html
+        // Now I want to write the vector in HTML
         // writeHTML(vector);
 
         // ------------------------------------------------
-        // Ahora quiero imprimir la lista enlazada en la impresora
+        // Now I want to print the linked list on the printer
         // print(linkedList);
 
         // ------------------------------------------------
-        // Ahora quiero guardar en el fichero "doble.txt" la lista DOBLE enlazada
+        // Now I want to save the DOUBLE linked list to the file "doble.txt"
         // save("doble.txt", doubleList);
 
         // ------------------------------------------------
-        // Ahora quiero imprimir en la impresora el contenido del fichero "database.txt"
+        // Now I want to print the contents of the file "file.txt" on the printer
         MyVector fileVector = loadFile("file.txt");
         // print(fileVector);
 
