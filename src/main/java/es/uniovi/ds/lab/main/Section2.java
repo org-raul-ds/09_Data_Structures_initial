@@ -17,8 +17,7 @@ public class Section2 {
         // save(???);
 
         // ------------------------------------------------
-        // How could we generate the HTML without the server having to load the entire file into memory?
-        // Open "file.txt"
+        // How could we generate the HTML without the server having to load the entire "file.txt" into memory?
         // writeHTML(???);
 
     }

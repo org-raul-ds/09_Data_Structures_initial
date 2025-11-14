@@ -27,7 +27,7 @@ public class Section3 {
         // print(doubleList2);
 
         // ------------------------------------------------
-        // Now that I'm done working with "doubleList2", I want to leave the elements that remained in "vector3"
+        // Finally, I want to copy the elements from "doubleList2" to a vector "vector3"
         // MyVector vector3 = <put all elements from "doubleList2">
         // print(vector3);
     }
