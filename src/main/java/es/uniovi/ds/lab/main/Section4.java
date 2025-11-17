@@ -15,13 +15,14 @@ public class Section4 {
         match.play();
 
         /*
-        1. Review the Team and Match classes. Improve them if necessary.
+        1. Read the Team and Match classes.
         
         2. Change Team so that it stores the "players" in a MyVector instead of MyLinkedList.
-        - In view of the changes to be made, do you think your design was good? Why or why not?
+            - In view of the changes to be made, do you think the design was good enough? why yes/no?
+            - Change the design to make it better if you think it is necessary.
         
         3. Change Team again so that the "players" are now stored in a MyDoubleList instead of a MyVector.
-        - Did you have to change the Match class for this?
+            - Did you have to change the Match class for this?
         
         4. Finally, change the previous code in order to load the player names from "TeamA.txt" and "TeamB.txt" respectively.
         */
