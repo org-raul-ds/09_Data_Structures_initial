@@ -15,7 +15,7 @@ public class Team {
         return name;
     }
 
-    public MyLinkedList getPlayers() {
+    public MyLinkedList players() {
         return players;
     }
 

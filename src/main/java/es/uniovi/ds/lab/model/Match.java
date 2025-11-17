@@ -11,20 +11,27 @@ public class Match {
         this.awayTeam = awayTeam;
     }
 
+    public Team homeTeam() {
+        return homeTeam;
+    }
+
+    public Team awayTeam() {
+        return awayTeam;
+    }
+
     public void play() {
 
         System.out.println(
                 "Match between '" + homeTeam.getName() + "' and '" + awayTeam.getName() + "' is being played.");
 
         System.out.println("Home Team Players:");
-        MyLinkedList homePlayers = homeTeam.getPlayers();
+        MyLinkedList homePlayers = homeTeam.players();
         for (int i = 0; i < homePlayers.size(); i++)
             System.out.println("- " + homePlayers.getString(i));
 
         System.out.println("Away Team Players:");
-        MyLinkedList awayPlayers = awayTeam.getPlayers();
+        MyLinkedList awayPlayers = awayTeam.players();
         for (int i = 0; i < awayPlayers.size(); i++)
             System.out.println("- " + awayPlayers.getString(i));
-
     }
 }
