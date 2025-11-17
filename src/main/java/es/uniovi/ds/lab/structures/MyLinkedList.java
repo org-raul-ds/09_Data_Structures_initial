@@ -3,6 +3,11 @@ package es.uniovi.ds.lab.structures;
 class SingleLinkNode {
     String text;
     SingleLinkNode next;
+
+    public SingleLinkNode(String text, SingleLinkNode next) {
+        this.text = text;
+        this.next = next;
+    }
 }
 
 public class MyLinkedList {
@@ -20,10 +25,7 @@ public class MyLinkedList {
     }
 
     public void add(String text) {
-        SingleLinkNode newNode = new SingleLinkNode();
-        newNode.text = text;
-        newNode.next = head;
-        head = newNode;
+        head = new SingleLinkNode(text, head);
         size++;
     }
 

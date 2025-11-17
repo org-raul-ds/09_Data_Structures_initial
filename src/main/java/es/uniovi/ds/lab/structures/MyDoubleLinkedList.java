@@ -2,19 +2,23 @@ package es.uniovi.ds.lab.structures;
 
 class DoubleLinkNode {
     String text;
-    DoubleLinkNode next;
     DoubleLinkNode prev;
+    DoubleLinkNode next;
+
+    public DoubleLinkNode(String text, DoubleLinkNode prev, DoubleLinkNode next) {
+        this.text = text;
+        this.next = next;
+        this.prev = prev;
+    }
 }
 
 public class MyDoubleLinkedList {
 
     private DoubleLinkNode head;
-    private DoubleLinkNode tail;
     private int size;
 
     public MyDoubleLinkedList() {
         head = null;
-        tail = null;
         size = 0;
     }
 
@@ -23,17 +27,9 @@ public class MyDoubleLinkedList {
     }
 
     public void add(String text) {
-        DoubleLinkNode newNode = new DoubleLinkNode();
-        newNode.text = text;
-        newNode.next = head;
-        newNode.prev = null;
-
-        if (head != null)
-            head.prev = newNode;
-        else
-            tail = newNode; // If the list was empty, tail is also the new node
-
-        head = newNode;
+        head = new DoubleLinkNode(text, null, head);
+        if (head.next != null)
+            head.next.prev = head;
         size++;
     }
 
