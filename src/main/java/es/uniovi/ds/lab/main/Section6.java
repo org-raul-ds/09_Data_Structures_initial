@@ -10,7 +10,7 @@ public class Section6 {
     public static void main(String[] args) throws Exception {
 
         Match match = new Match(
-                new Team("Lucasencos", linkedListOf("Bartolomew", "Milhouse", "Harry")),
+                new Team("Lucareños", linkedListOf("Bartolomew", "Milhouse", "Harry")),
                 new Team("Negreira Boys", linkedListOf("Johansson", "Aaron", "Albert")));
 
         // 1. Save the names of ALL players from both teams together in a single file "All Players.txt" (the order doesn't matter)
