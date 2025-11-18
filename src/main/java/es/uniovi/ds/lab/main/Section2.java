@@ -20,5 +20,9 @@ public class Section2 {
         // How could we generate the HTML without the server having to load the entire "file.txt" into memory?
         // writeHTML(???);
 
+        // ------------------------------------------------
+        // How could we send to the printer the file "file.txt" without loading it entirely into memory?
+        // print(???);
+
     }
 }
