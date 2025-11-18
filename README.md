@@ -16,4 +16,4 @@ To submit your solution:
 
 The solution to **this exercise** can be found in [this repository](https://github.com/org-raul-ds/09_Data_Structures_solution.git), which will be available during the next lab session (it is currently disabled, so the link will produce an error).
 
-The solution to **last week's exercise** can be found in [this repository]((https://github.com/org-raul-ds/10_Visitor_initial.git).
+The solution to **last week's exercise** can be found in [this repository](https://github.com/org-raul-ds/08_Survey_solution).
