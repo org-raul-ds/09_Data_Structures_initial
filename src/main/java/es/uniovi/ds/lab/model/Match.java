@@ -26,12 +26,15 @@ public class Match {
 
         System.out.println("Home Team Players:");
         MyLinkedList homePlayers = homeTeam.players();
-        for (int i = 0; i < homePlayers.size(); i++)
-            System.out.println("- " + homePlayers.getString(i));
+        printPlayers(homePlayers);
 
         System.out.println("Away Team Players:");
         MyLinkedList awayPlayers = awayTeam.players();
-        for (int i = 0; i < awayPlayers.size(); i++)
-            System.out.println("- " + awayPlayers.getString(i));
+        printPlayers(awayPlayers);
+    }
+
+    private void printPlayers(MyLinkedList homePlayers) {
+        for (int i = 0; i < homePlayers.size(); i++)
+            System.out.println("- " + homePlayers.getString(i));
     }
 }
