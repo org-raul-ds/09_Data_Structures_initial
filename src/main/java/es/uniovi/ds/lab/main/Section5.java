@@ -42,42 +42,42 @@ public class Section5 {
 /* Expected Output:
 
 ## Task A
------------------------------------------------- DoubleLinkedList to printer
+------------------------------------------------
 Loading sheet...
 Printing line: VICTOR
 Printing line: VALENTIN
 Printing line: VIDAL
 Printing line: VIVIANA
 Ejecting page
------------------------------------------------- DoubleLinkedList to printer
+------------------------------------------------
 Loading sheet...
 Printing line: Luca
 Printing line: Lean
 Printing line: Lore
 Printing line: Luis
 Ejecting page
------------------------------------------------- DoubleLinkedList to printer
+------------------------------------------------
 Loading sheet...
 Printing line: Mr. Victor
 Printing line: Mr. Valentin
 Printing line: Mr. Vidal
 Printing line: Mr. Viviana
 Ejecting page
------------------------------------------------- DoubleLinkedList to printer
+------------------------------------------------
 Loading sheet...
 Printing line: VICTOR
 Printing line: VALENTIN
 Printing line: VIDAL
 Printing line: VIVIANA
 Ejecting page
------------------------------------------------- DoubleLinkedList to printer
+------------------------------------------------
 Loading sheet...
 Printing line: Luca
 Printing line: Lean
 Printing line: Lore
 Printing line: Luis
 Ejecting page
------------------------------------------------- DoubleLinkedList to printer
+------------------------------------------------
 Loading sheet...
 Printing line: Mr. Victor
 Printing line: Mr. Valentin
@@ -87,11 +87,11 @@ Ejecting page
 
 
 ## Task B
------------------------------------------------- DoubleLinkedList to printer
+------------------------------------------------
 Loading sheet...
 Printing line: Vidal
 Ejecting page
------------------------------------------------- DoubleLinkedList to printer
+------------------------------------------------
 Loading sheet...
 Printing line: Lucas
 Printing line: Luis
@@ -99,7 +99,7 @@ Ejecting page
 
 
 ## Task C
------------------------------------------------- DoubleLinkedList to printer
+------------------------------------------------
 Loading sheet...
 Printing line: Mr. LEANDRO
 Printing line: Mr. LORENZO

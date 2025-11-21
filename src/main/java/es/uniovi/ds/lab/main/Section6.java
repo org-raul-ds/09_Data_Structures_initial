@@ -20,7 +20,7 @@ public class Section6 {
         // String startsWithA = ...;
         // System.out.println("\n\nFirst player whose name starts with 'A': " + startsWithA);
 
-        // 3. Save to a file "Big Players.txt" the names of players from both teams whose name has more than 6 letters. Print the names in uppercase.
+        // 3. Save to a file "Big Players.txt" the names of players from both teams whose name has more than 6 letters (the order doesn't matter). Print the names in uppercase.
         // save("Big players.txt", ...
 
         // 4. Create a file "Both files.txt" that contains the content of the files "TeamA.txt" and "TeamB.txt"
@@ -32,7 +32,7 @@ public class Section6 {
 /*
 Expected output (the order doesn't matter):
 
------------------------------------------------- Vector to file
+------------------------------------------------
 Creating file 'All Players.txt'
 Harry
 Milhouse
@@ -44,13 +44,13 @@ Closing file
 
 
 First player whose name starts with 'A': Albert
------------------------------------------------- Vector to file
+------------------------------------------------
 Creating file 'Big Players.txt'
 MILHOUSE
 BARTOLOMEW
 JOHANSSON
 Closing file
------------------------------------------------- Vector to file
+------------------------------------------------
 Creating file 'Both files.txt'
 Homer
 Hank
