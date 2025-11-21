@@ -35,7 +35,6 @@ public class Section5 {
 
         // Print the list names with length 7 on the printer. These should be printed in uppercase and preceded by "Mr. ".
         // print...
-
     }
 }
 
@@ -104,5 +103,4 @@ Loading sheet...
 Printing line: Mr. LEANDRO
 Printing line: Mr. LORENZO
 Ejecting page
-
 */

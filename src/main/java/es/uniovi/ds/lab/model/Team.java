@@ -18,5 +18,4 @@ public class Team {
     public MyLinkedList players() {
         return players;
     }
-
 }
