@@ -5,7 +5,7 @@ import es.uniovi.ds.lab.structures.MyLinkedList;
 public class HtmlGenerator {
     public static void writeHTML(MyLinkedList linked) {
 
-        System.out.println("------------------------------------------------ LinkedList to Html");
+        System.out.println("------------------------------------------------");
         System.out.println("<html>");
         System.out.println("  <body>");
         System.out.println("    <ul>");

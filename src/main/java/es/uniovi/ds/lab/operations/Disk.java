@@ -9,7 +9,7 @@ public class Disk {
 
     public static void save(String fileName, MyVector vector) {
 
-        System.out.println("------------------------------------------------ Vector to file");
+        System.out.println("------------------------------------------------");
         System.out.println("Creating file '" + fileName + "'");
 
         for (int i = 0; i < vector.size(); i++)

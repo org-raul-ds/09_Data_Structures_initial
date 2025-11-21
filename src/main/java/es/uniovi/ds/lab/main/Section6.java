@@ -24,7 +24,7 @@ public class Section6 {
         // save("Big players.txt", ...
 
         // 4. Create a file "Both files.txt" that contains the content of the files "TeamA.txt" and "TeamB.txt"
-        // save("Both files.txt", ..."TeamA.txt"..."TeamB.txt"
+        // save("Both files.txt", ..."TeamA.txt"..."TeamB.txt"...
 
     }
 }
