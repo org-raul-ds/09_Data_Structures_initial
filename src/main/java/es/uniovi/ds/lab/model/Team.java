@@ -18,4 +18,8 @@ public class Team {
     public MyLinkedList players() {
         return players;
     }
+
+    public void addPlayer(String name) {
+        players.add(name);
+    }
 }
