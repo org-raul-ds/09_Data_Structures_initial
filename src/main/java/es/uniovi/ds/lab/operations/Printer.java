@@ -3,7 +3,7 @@ package es.uniovi.ds.lab.operations;
 import es.uniovi.ds.lab.structures.*;
 
 public class Printer {
-    public static void print(MyDoubleLinkedList doubleList) {
+    public static void sendToPrinter(MyDoubleLinkedList doubleList) {
 
         System.out.println("------------------------------------------------");
         System.out.println("Loading sheet...");

@@ -16,6 +16,7 @@ public class Util {
 
     public static MyLinkedList linkedListOf(String... elements) {
         MyLinkedList list = new MyLinkedList();
+        // Add elements in reverse order to maintain the input order
         for (int i = elements.length - 1; i >= 0; i--)
             list.add(elements[i]);
         return list;
@@ -23,6 +24,7 @@ public class Util {
 
     public static MyDoubleLinkedList doubleLinkedListOf(String... elements) {
         MyDoubleLinkedList list = new MyDoubleLinkedList();
+        // Add elements in reverse order to maintain the input order
         for (int i = elements.length - 1; i >= 0; i--)
             list.add(elements[i]);
         return list;

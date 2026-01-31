@@ -1,10 +1,10 @@
-package es.uniovi.ds.lab.main;
+package es.uniovi.ds.lab.main.basic;
 
 import static es.uniovi.ds.lab.util.Util.*;
 
 import es.uniovi.ds.lab.model.*;
 
-public class Section4 {
+public class Exercise4 {
 
     public static void main(String[] args) throws Exception {
 
@@ -24,7 +24,7 @@ public class Section4 {
         3. Change Team again so that the "players" are now stored in a MyDoubleList instead of a MyVector.
             - Did you have to change the Match class for this?
         
-        4. Finally, change the previous code in order to load the player names from "TeamA.txt" and "TeamB.txt" respectively.
+        4. Finally, change the previous code in order to load the player names from "Home team substitutes.txt" and "Away team substitutes.txt" respectively.
         */
     }
 }

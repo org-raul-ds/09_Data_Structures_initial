@@ -1,10 +1,10 @@
-package es.uniovi.ds.lab.main;
+package es.uniovi.ds.lab.main.basic;
 
 import static es.uniovi.ds.lab.operations.Disk.*;
 
 import es.uniovi.ds.lab.structures.MyVector;
 
-public class Section2 {
+public class Exercise2 {
 
     public static void main(String[] args) throws Exception {
 
@@ -22,6 +22,6 @@ public class Section2 {
 
         // ------------------------------------------------
         // How could we send to the printer the file "file.txt" without loading it entirely into memory?
-        // print..."file.txt"...
+        // sendToPrinter..."file.txt"...
     }
 }

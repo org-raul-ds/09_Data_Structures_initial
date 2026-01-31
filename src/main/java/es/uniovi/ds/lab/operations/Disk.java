@@ -15,7 +15,7 @@ public class Disk {
         for (int i = 0; i < vector.size(); i++)
             System.out.println("Writing line: " + vector.get(i));
 
-        System.out.println("Closing file");
+        System.out.println("[Closing file]");
     }
 
     public static MyVector loadFile(String fileName) throws FileNotFoundException {
