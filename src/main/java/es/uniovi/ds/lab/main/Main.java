@@ -1,5 +1,8 @@
 package es.uniovi.ds.lab.main;
 
+import es.uniovi.ds.lab.main.basic.*;
+import es.uniovi.ds.lab.main.extended.*;
+
 public class Main {
 
     public static void main(String[] args) throws Exception {
@@ -11,6 +14,7 @@ public class Main {
         // Exercise4.main(args);
         // Exercise5.main(args);
         // Exercise6.main(args);
+        // Exercise7.main(args);
     }
 
 }
