@@ -43,39 +43,60 @@ public class Exercise1 {
 Expected output (the order doesn't matter):
 
 ------------------------------------------------
-Creating file 'All players.txt'
-Harry
-Milhouse
-Bartolomew
-Albert
-Aaron
-Johansson
-Closing file
-
-
-First player whose name starts with 'A': Albert
+Creating file 'vector.txt'
+Victor
+Valentin
+Vidal
+Viviana
+[Closing file]
 ------------------------------------------------
-Creating file 'Big players.txt'
-MILHOUSE
-BARTOLOMEW
-JOHANSSON
-Closing file
+<html>
+  <body>
+    <ul>
+      <li>Lucas</li>
+      <li>Leandro</li>
+      <li>Lorenzo</li>
+      <li>Luis</li>
+    </ul>
+  </body>
+</html>
 ------------------------------------------------
-Creating file 'Both files.txt'
-Homer
-Hank
-Harry
-Arnold
-Aaron
-Albert
-Closing file
+Loading sheet...
+Printing line: Daniel
+Printing line: Diego
+Printing line: Damián
+Printing line: Domingo
+Ejecting page
 ------------------------------------------------
-Creating file 'Mix.txt'
-Harry
-Milhouse
-Bartolomew
-Homer
-Hank
-Harry
-Closing file
+<html>
+  <body>
+    <ul>
+      <li>Victor</li>
+      <li>Valentin</li>
+      <li>Vidal</li>
+      <li>Viviana</li>
+    </ul>
+  </body>
+</html>
+------------------------------------------------
+Loading sheet...
+Printing line: Lucas
+Printing line: Leandro
+Printing line: Lorenzo
+Printing line: Luis
+Ejecting page
+------------------------------------------------
+Creating file 'doble.txt'
+Daniel
+Diego
+Damián
+Domingo
+[Closing file]
+------------------------------------------------
+Loading sheet...
+Printing line: Federico
+Printing line: Fulgencio
+Printing line: Fernando
+Printing line: Fulvia
+Ejecting page
 */
