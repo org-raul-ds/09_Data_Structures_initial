@@ -15,16 +15,22 @@ public class Exercise4 {
         match.play();
 
         /*
+        Follow these steps:
+        
         1. Read the Team and Match classes.
         
-        2. Change Team so that it stores the "players" in a MyVector instead of MyLinkedList.
-            - In view of the changes to be made, do you think the design was good enough? why yes/no?
-            - Change the design to make it better if you think it is necessary.
+        2. Modify Team so that it stores the "players" in a MyVector instead of a MyLinkedList.
+           - Considering the changes required, do you think the design was adequate? Why or why not?
+           - Improve the design if you believe it is necessary.
         
         3. Change Team again so that the "players" are now stored in a MyDoubleList instead of a MyVector.
-            - Did you have to change the Match class for this?
+           - Did you need to modify the Match class for this?
         
-        4. Finally, change the previous code in order to load the player names from "Home team substitutes.txt" and "Away team substitutes.txt" respectively.
+        4. Finally, update the code at the beginning of main to load the player names from "Home team substitutes.txt" and "Away team substitutes.txt" respectively.
+        
+           Team homeTeam = new Team("Lucareños", ... "Home team substitutes.txt"...);
+           Team awayTeam = new Team("Negreira Boys", ... "Away team substitutes.txt"...);
+           ...
         */
     }
 }
