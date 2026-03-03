@@ -5,7 +5,7 @@ import es.uniovi.ds.lab.structures.*;
 /**
  * Don't modify this class. It is only used for testing purposes.
  */
-public class Util {
+public class TestsHelper {
 
     public static MyVector vectorOf(String... elements) {
         MyVector vector = new MyVector();

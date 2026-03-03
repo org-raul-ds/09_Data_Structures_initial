@@ -1,6 +1,6 @@
 package es.uniovi.ds.lab.main.extended;
 
-import static es.uniovi.ds.lab.main.Util.*;
+import static es.uniovi.ds.lab.main.TestsHelper.*;
 import static es.uniovi.ds.lab.operations.Printer.*;
 
 import es.uniovi.ds.lab.structures.MyVector;
