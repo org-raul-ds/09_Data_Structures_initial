@@ -6,20 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Exercise2",
-            "request": "launch",
-            "mainClass": "es.uniovi.ds.lab.main.basic.Exercise2",
-            "projectName": "data_structures_initial"
-        },
-        {
-            "type": "java",
-            "name": "Exercise1",
-            "request": "launch",
-            "mainClass": "es.uniovi.ds.lab.main.basic.Exercise1",
-            "projectName": "data_structures_initial"
-        },
-        {
-            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "es.uniovi.ds.lab.main.Main"
