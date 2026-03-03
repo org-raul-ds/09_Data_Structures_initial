@@ -17,16 +17,15 @@ public class Exercise6 {
 
         // 1. Print the vector names in uppercase
 
-        // One approach: create an auxiliary vector to store the uppercase names before printing
+        // Approach 1. Create an auxiliary vector to store the uppercase names before printing
         var upperCaseVector = new MyVector();
         for (int i = 0; i < vector.size(); i++)
             upperCaseVector.add(vector.get(i).toUpperCase());
         // sendToPrinter(...upperCaseVector...);
 
         // Can you think of a better approach that avoids creating auxiliary data structures and is reusable?
-        // sendToPrinter...
 
-        // 2. Generate HTML with only the first four characters of each name
+        // 2. Generate HTML with only the first four characters of each name [name.substring(0, 4)]
         // writeHTML...
 
         // 3. Print the vector names preceded by "Mr. "
@@ -35,10 +34,10 @@ public class Exercise6 {
         //$ Section B -----------------------------------------------------------
         System.out.println("\n\n## Section B");
 
-        // 4. Print the vector names that have exactly 5 characters
+        // 4. Print the vector names that have exactly 5 characters [name.length() == 5]
         // sendToPrinter...
 
-        // 5. Print the list names that contain a 'u' in either of their first two letters
+        // 5. Print the list names that contain a 'u' in either of their first two letters [name.substring(0, 2).contains("u")]
         // sendToPrinter...
 
         //$ Section C -----------------------------------------------------------
