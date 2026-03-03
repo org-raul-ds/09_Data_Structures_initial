@@ -1,8 +1,8 @@
 package es.uniovi.ds.lab.main.basic;
 
+import static es.uniovi.ds.lab.main.Util.*;
 import static es.uniovi.ds.lab.operations.Disk.*;
 import static es.uniovi.ds.lab.operations.Printer.*;
-import static es.uniovi.ds.lab.util.Util.*;
 
 import java.io.IOException;
 

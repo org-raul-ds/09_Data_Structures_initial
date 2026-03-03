@@ -1,6 +1,6 @@
 package es.uniovi.ds.lab.main.basic;
 
-import static es.uniovi.ds.lab.util.Util.*;
+import static es.uniovi.ds.lab.main.Util.*;
 
 import es.uniovi.ds.lab.model.*;
 

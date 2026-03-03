@@ -1,4 +1,4 @@
-package es.uniovi.ds.lab.util;
+package es.uniovi.ds.lab.main;
 
 import es.uniovi.ds.lab.structures.*;
 

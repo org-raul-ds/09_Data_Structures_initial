@@ -1,7 +1,7 @@
 package es.uniovi.ds.lab.main.extended;
 
+import static es.uniovi.ds.lab.main.Util.*;
 import static es.uniovi.ds.lab.operations.Disk.*;
-import static es.uniovi.ds.lab.util.Util.*;
 
 import es.uniovi.ds.lab.model.*;
 
