@@ -15,7 +15,7 @@ public class Exercise6 {
         //$ Section A -----------------------------------------------------------
         System.out.println("\n\n## Section A");
 
-        // 1. Print the vector names in uppercase
+        // 1. Send to the printer the vector names in uppercase
 
         // Approach 1. Create an auxiliary vector to store the uppercase names before printing
         var upperCaseVector = new MyVector();
@@ -28,22 +28,22 @@ public class Exercise6 {
         // 2. Generate HTML with only the first four characters of each name [name.substring(0, 4)]
         // writeHTML...
 
-        // 3. Print the vector names preceded by "Mr. "
+        // 3. Send to the printer the vector names preceded by "Mr. "
         // sendToPrinter...
 
         //$ Section B -----------------------------------------------------------
         System.out.println("\n\n## Section B");
 
-        // 4. Print the vector names that have exactly 5 characters [name.length() == 5]
+        // 4. Send to the printer the vector names that have exactly 5 characters [name.length() == 5]
         // sendToPrinter...
 
-        // 5. Print the list names that contain a 'u' in either of their first two letters [name.substring(0, 2).contains("u")]
+        // 5. Send to the printer the list names that contain a 'u' in either of their first two letters [name.substring(0, 2).contains("u")]
         // sendToPrinter...
 
         //$ Section C -----------------------------------------------------------
         System.out.println("\n\n## Section C");
 
-        // 6. Print the names with length 7. These should be printed in uppercase and preceded by "Mr. ".
+        // 6. Send to the printer the names with length 7. These should be printed in uppercase and preceded by "Mr. ".
         // sendToPrinter...
     }
 }
