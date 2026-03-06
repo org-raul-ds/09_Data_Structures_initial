@@ -12,11 +12,11 @@ public class Exercise5 {
         var vector = vectorOf("Victor", "Valentin", "Vidal", "Viviana");
         var linkedList = linkedListOf("Lucas", "Leandro", "Lorenzo", "Luis");
 
-        // 1. Find in the vector the first name with five letters (length() == 5)
+        // 1. Find in the vector the first name with five letters (name.length() == 5)
 
-        // 2. Find in the linked list the first name whose second letter is 'e' (charAt(1) == 'e')
+        // 2. Find in the linked list the first name whose second letter is 'e' (name.charAt(1) == 'e')
 
-        // 3. Find in "file.txt" the first name that starts with "Fu" (String.startsWith("Fu"))
+        // 3. Find in "file.txt" the first name that starts with "Fu" (name.startsWith("Fu"))
 
     }
 }
