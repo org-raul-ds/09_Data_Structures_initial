@@ -19,7 +19,4 @@ public class Team {
         return players;
     }
 
-    public void addPlayer(String name) {
-        players.add(name);
-    }
 }
