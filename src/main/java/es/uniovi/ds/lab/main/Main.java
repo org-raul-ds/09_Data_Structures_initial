@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         System.out.println("Run the Exercise<n>.main methods to test your implementations.");
 
-        Exercise1.main(args);
+        // Exercise1.main(args);
         // Exercise2.main(args);
         // Exercise3.main(args);
         // Exercise4.main(args);
