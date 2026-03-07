@@ -14,7 +14,7 @@ public class Exercise7 {
         MyVector homeStarters = vectorOf("Bartolomew", "Milhouse", "Harry");
         MyVector awayStarters = vectorOf("Johansson", "Peter", "Bill");
 
-        // 1. Save the starting players from both teams together in a single file named "Both teams starters.txt" (order doesn't matter).
+        // 1. Save the starting players from both teams together in a single file named "Both teams starters.txt".
         // save("Both teams starters.txt"...homeStarters...awayStarters...
 
         // 2. Create a file "All home team players.txt" containing the home team starters and substitutes.
