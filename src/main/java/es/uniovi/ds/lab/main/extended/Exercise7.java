@@ -20,7 +20,7 @@ public class Exercise7 {
         // 2. Create a file "All home team players.txt" containing the home team starters and substitutes.
         // save("All home team players.txt" ... homeStarters... "Home team substitutes.txt"...
 
-        // 3. Find the first away team player whose name starts with 'A' and print it to the console. Search starters first, then substitutes if not found.
+        // 3. Find the first away team player whose name starts with 'A'. Search starters first, then substitutes if not found.
         // String startsWithA =  ...awayStarters..."Away team substitutes.txt"...
         // System.out.println("\n\nFirst away team player whose name starts with 'A': " + startsWithA + "\n");
 
@@ -32,6 +32,7 @@ public class Exercise7 {
 }
 
 /*
+Expected output:
 ------------------------------------------------
 Creating file 'Both teams starters.txt'
 Bartolomew
