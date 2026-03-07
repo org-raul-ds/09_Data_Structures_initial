@@ -18,5 +18,6 @@ public class Exercise5 {
 
         // 3. Find in "file.txt" the first name that starts with "Fu" (name.startsWith("Fu"))
 
+        // After completing the three previous tasks: Did you find yourself repeating code? What part of the code is repeated? How could you avoid this repetition?
     }
 }

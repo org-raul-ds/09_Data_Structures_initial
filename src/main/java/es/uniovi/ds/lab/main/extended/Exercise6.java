@@ -15,9 +15,11 @@ public class Exercise6 {
         //$ Section A -----------------------------------------------------------
         System.out.println("\n\n## Section A");
 
-        // 1. Print the names in the vector in uppercase
+        /*
+          1. Print the names in the vector in uppercase
+        */
 
-        // Approach 1. Create an auxiliary vector to store the uppercase names before printing
+        // [Approach 1] Create an auxiliary vector to store the uppercase names before printing
         var upperCaseVector = new MyVector();
         for (int i = 0; i < vector.size(); i++)
             upperCaseVector.add(vector.get(i).toUpperCase());
@@ -25,25 +27,35 @@ public class Exercise6 {
 
         // Can you think of a better approach that avoids creating another vector?
 
-        // 2. Generate HTML with only the first four characters of each name in the list [name.substring(0, 4)]. For example, "Victor" should be printed as "Vict".
+        /*
+          2. Generate HTML with only the first four characters of each name in the list [name.substring(0, 4)]. For example, "Victor" should be printed as "Vict".
+        */
         // writeHTML...
 
-        // 3. Print the names in the vector preceded by "Mr. " (for example, "Mr. Victor").
+        /*
+          3. Print the names in the vector preceded by "Mr. " (for example, "Mr. Victor").
+        */
         // sendToPrinter...
 
         //$ Section B -----------------------------------------------------------
         System.out.println("\n\n## Section B");
 
-        // 4. Print only the names in the vector that have exactly 5 characters [name.length() == 5]
+        /*
+          4. Print only the names in the vector that have exactly 5 characters [name.length() == 5]
+        */
         // sendToPrinter...
 
-        // 5. Print only the names in the list that contain a 'u' in either of the first two letters [name.substring(0, 2).contains("u")]
+        /*
+          5. Print only the names in the list that contain a 'u' in either of the first two letters [name.substring(0, 2).contains("u")]
+        */
         // sendToPrinter...
 
         //$ Section C -----------------------------------------------------------
         System.out.println("\n\n## Section C");
 
-        // 6. Print only the names in the list that have seven letters [name.length() == 7]. These should be printed preceded by "Mr. "
+        /*
+          6. Print only the names in the list that have seven letters [name.length() == 7]. These should be printed preceded by "Mr. "
+        */
         // sendToPrinter...
     }
 }

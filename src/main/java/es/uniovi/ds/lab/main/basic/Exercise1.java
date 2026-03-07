@@ -20,20 +20,24 @@ public class Exercise1 {
         var doubleList = doubleLinkedListOf("Daniel", "Diego", "Damián", "Domingo");
         sendToPrinter(doubleList);
 
-        // ------------------------------------------------
-        // Now I want to write the vector in HTML
+        /*
+          Now I want to write the vector in HTML
+        */
         // writeHTML...vector...
 
-        // ------------------------------------------------
-        // Now I want to print the linked list on the printer
+        /*
+          Now I want to print the linked list on the printer
+        */
         // sendToPrinter...linkedList...
 
-        // ------------------------------------------------
-        // Now I want to save the DOUBLE linked list to the file "doble.txt"
+        /*
+          Now I want to save the double-linked list to the file "doble.txt"
+        */
         // save..."doble.txt"...doubleList...
 
-        // ------------------------------------------------
-        // Now I want to print the contents of the file "file.txt" on the printer
+        /*
+          Now I want to print the contents of the file "file.txt" on the printer
+        */
         MyVector fileVector = loadFile("file.txt");
         // sendToPrinter...fileVector...
     }
