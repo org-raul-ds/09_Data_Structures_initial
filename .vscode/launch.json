@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Exercise7",
+            "request": "launch",
+            "mainClass": "es.uniovi.ds.lab.main.extended.Exercise7",
+            "projectName": "data_structures_initial"
+        },
+        {
+            "type": "java",
+            "name": "Exercise6",
+            "request": "launch",
+            "mainClass": "es.uniovi.ds.lab.main.extended.Exercise6",
+            "projectName": "data_structures_initial"
+        },
+        {
+            "type": "java",
+            "name": "Exercise5",
+            "request": "launch",
+            "mainClass": "es.uniovi.ds.lab.main.extended.Exercise5",
+            "projectName": "data_structures_initial"
+        },
+        {
+            "type": "java",
+            "name": "Exercise4",
+            "request": "launch",
+            "mainClass": "es.uniovi.ds.lab.main.basic.Exercise4",
+            "projectName": "data_structures_initial"
+        },
+        {
+            "type": "java",
+            "name": "Exercise3",
+            "request": "launch",
+            "mainClass": "es.uniovi.ds.lab.main.basic.Exercise3",
+            "projectName": "data_structures_initial"
+        },
+        {
+            "type": "java",
+            "name": "Exercise2",
+            "request": "launch",
+            "mainClass": "es.uniovi.ds.lab.main.basic.Exercise2",
+            "projectName": "data_structures_initial"
+        },
+        {
+            "type": "java",
+            "name": "Exercise1",
+            "request": "launch",
+            "mainClass": "es.uniovi.ds.lab.main.basic.Exercise1",
+            "projectName": "data_structures_initial"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "es.uniovi.ds.lab.main.Main"
